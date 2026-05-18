@@ -1,0 +1,19 @@
+{
+  "xsappname": "s4accelerate-tenant-manager",
+  "tenant-mode": "shared",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.S4A_Platform_Admin",
+      "description": "Administrative authority clearance for core multi-tenant engine infrastructure"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "PlatformAdminRole",
+      "description": "System Operations Administrator Profile",
+      "scope-references": [
+        "$XSAPPNAME.S4A_Platform_Admin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'S4A Discovery Extractor Service Definition'
+define service Z_SRVD_DISCOVERY {
+  expose Z_C_COMPANYCODE as CompanyCode;
+  expose Z_C_PLANT as Plant;
+  expose Z_C_STORAGELOCATION as StorageLocation;
+}

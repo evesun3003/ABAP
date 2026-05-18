@@ -1,0 +1,4 @@
+@EndUserText.label: 'S4A Row-Level Security for Company Code'
+define role Z_C_COMPANYCODE {
+    grant select on Z_C_COMPANYCODE where ( CompanyCode ) = aspect pfcg_auth( F_BKPF_BUK, BUKRS, ACTVT = '03' );
+}
