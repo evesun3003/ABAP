@@ -1,4 +1,4 @@
-# Russia ABAP
+# ABAP
 
 A testing project for ABAP development.
 
